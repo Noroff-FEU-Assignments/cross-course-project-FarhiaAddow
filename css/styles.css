@@ -31,6 +31,27 @@ h1 {
      opacity:50% ;
 
  } 
+
+ .container{
+     display: flex;
+
+ }
+ .item{
+     padding: 30px;
+     margin: 10px;
+
+ }
+
+ .one{
+    background-color: #362B48;
+    
+ }
+
+ .two{
+    background-color: #362B48;
+    
+ }
+
   @media only screen and (min-width: 768px) {
     /* For tablets: */
     body{
