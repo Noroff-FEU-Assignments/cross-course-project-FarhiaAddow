@@ -22,6 +22,10 @@ h1 {
 .logo{
 
 }
+.floated{
+    float:right;
+
+}
 
  .transparent{
      opacity:50% ;
