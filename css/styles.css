@@ -11,8 +11,15 @@ header {
 
 header a{
     color: #FEF6FF;
-    font-family: catamaran; font-weight:black;
+    font-family: catamaran; 
+    font-weight:black;
     font-size: 20px;
+}
+p{
+    color: #FEF6FF;
+    font-family: padouk; 
+    font-weight: lighter;
+    font-size: 20px
 }
 h1 {
     color: #FEF6FF;
