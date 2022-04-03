@@ -19,12 +19,20 @@ body{
 
 }
 
+#hamburger-menu:checked ~ nav {
+  display: block;  
+}
+
+#hamburger-menu{
+    display: none;
+}
+
 .navbar{
-    display: flex;
+    display:none;
     justify-content: space-between;
-    align-items: center;
     background-color:#362B48;
 }
+
 header { 
     color: #FEF6FF50; 
     min-height: 1vh;
@@ -122,4 +130,4 @@ h1{
         background:#070029
     
     }
-  }
+ 
