@@ -1,52 +1,58 @@
+
+    
+
 body{
+    margin: 0;
+    padding:0%;
     background: #070029;
-    background-image: linear-gradient(#070029,#070029,#595470)
+    background-image: linear-gradient(#070029,#070029,#595470);
+    box-sizing:border-box;
+}
+
+.image-header{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit:fill
+    
 
 }
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#362B48;
+}
 header { 
-    background-color: #362B48;
     color: #FEF6FF50; 
-   
+    min-height: 1vh;
+    display: flex;
+    grid-gap: 1em;
+    
 }
 
 header a{
     color: #FEF6FF;
-    font-family: catamaran; 
+    font-family: 'Padauk', sans-serif;
     font-weight:black;
     font-size: 20px;
 }
 p{
     color: #FEF6FF;
-    font-family: padouk; font-weight: lighter;
+    font-family:'Padauk', sans-serif;
     font-weight: lighter;
     font-size: 20px;
-    
-
 }
-h1 {
+
+h1{
     color: #FEF6FF;
     font-family: Prompt;font-weight: lighter;
     font: size 40px;
 }
 
-.logo{
 
-}
-.floated{
-    float:right;
-
-}
-
- .transparent{
-     opacity:50% ;
-
- } 
-
- .container{
-     flex-direction: column;
-     display: flex;
-
- }
  .item{
      flex: 1;
      padding: 30px;
@@ -54,42 +60,53 @@ h1 {
 
  }
 
- .one{
-     flex: 1;
-     padding: 100px;
+ .item-one{
+    flex: none;
+    font-family: 'Padauk', sans-serif;
+    padding: 200px;
     background-color: #362B48;
-    background-image: linear-gradient(#070029,#ab2180)
-      
-}
+    background-image: linear-gradient(#070029,#ab2180);
     
+}
 
- .two{
-     flex: 1;
-     padding: 80px;
+ .item-two{
+    flex: none;
+    font-family: 'Padauk', sans-serif;
+    padding: 100px;
     background-color: #362B48;
     background-image: linear-gradient(#070029, #ab2180)
     }
  
 .button1{
+
     background-color: #278df9;
-    border: none
+    border: none;
     color: #FEF6FF;
     padding: 14px 40px;
     font-family: catamaran; font-weight: bold; font-size: 20px;
     text-align: center;
     transition-duration:0,04s;
     width: 50%;
-    
-     
+    place-items: center;
+    display: grid;
 }
+
 .button1:hover {
         background-color: #ab2180; 
-        color: white;
+        
       }
 
-.button1{border-radius: 8px;}
+.button1{border-radius: 8px;
 }
 
+.button1{
+    flex-direction: c;
+}
+
+.grid{
+    display: grid;
+    place-items: center;
+}
 
 
   @media only screen and (min-width: 768px) {
@@ -102,7 +119,7 @@ h1 {
   @media only screen and (min-width: 1024px) {
     /* For desktop: */
     body{
-        background: green;
+        background:#070029
     
     }
   }
