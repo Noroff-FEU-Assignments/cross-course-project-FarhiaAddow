@@ -19,20 +19,12 @@ body{
 
 }
 
-#hamburger-menu:checked ~ nav {
-  display: block;  
-}
-
-#hamburger-menu{
-    display: none;
-}
-
 .navbar{
-    display:none;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color:#362B48;
 }
-
 header { 
     color: #FEF6FF50; 
     min-height: 1vh;
@@ -52,14 +44,21 @@ p{
     font-family:'Padauk', sans-serif;
     font-weight: lighter;
     font-size: 20px;
-}
+    
 
+}
 h1{
     color: #FEF6FF;
     font-family: Prompt;font-weight: lighter;
     font: size 40px;
 }
 
+ .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+ }
 
  .item{
      flex: 1;
@@ -130,4 +129,4 @@ h1{
         background:#070029
     
     }
- 
+  }
