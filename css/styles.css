@@ -1,7 +1,11 @@
 
+<<<<<<< Updated upstream
     
 
 body{
+=======
+.body{
+>>>>>>> Stashed changes
     margin: 0;
     padding:0%;
     background: #070029;
@@ -19,6 +23,19 @@ body{
 
 }
 
+<<<<<<< Updated upstream
+=======
+#hamburger-menu:checked ~ nav {
+  display: block;  
+}
+
+#hamburger-menu{
+    display: none;
+}
+
+
+
+>>>>>>> Stashed changes
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -33,12 +50,17 @@ header {
     
 }
 
+<<<<<<< Updated upstream
 header a{
     color: #FEF6FF;
     font-family: 'Padauk', sans-serif;
     font-weight:black;
     font-size: 20px;
 }
+=======
+
+
+>>>>>>> Stashed changes
 p{
     color: #FEF6FF;
     font-family:'Padauk', sans-serif;
@@ -53,12 +75,17 @@ h1{
     font: size 40px;
 }
 
+<<<<<<< Updated upstream
  .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
      
  }
+=======
+
+ 
+>>>>>>> Stashed changes
 
  .item{
      flex: 1;
@@ -67,6 +94,11 @@ h1{
 
  }
 
+<<<<<<< Updated upstream
+=======
+    
+}
+>>>>>>> Stashed changes
  .item-one{
     flex: none;
     font-family: 'Padauk', sans-serif;
@@ -110,10 +142,15 @@ h1{
     flex-direction: c;
 }
 
+<<<<<<< Updated upstream
 .grid{
     display: grid;
     place-items: center;
 }
+=======
+
+
+>>>>>>> Stashed changes
 
 
   @media only screen and (min-width: 768px) {
@@ -122,6 +159,7 @@ h1{
         background:red;
     
     }
+<<<<<<< Updated upstream
   }
   @media only screen and (min-width: 1024px) {
     /* For desktop: */
@@ -130,3 +168,11 @@ h1{
     
     }
   }
+=======
+  
+  @media only screen and (min-width: 1024px) {
+    /* For desktop: */
+    body{
+        background: green;
+    
+>>>>>>> Stashed changes
