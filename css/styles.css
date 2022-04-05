@@ -1,5 +1,5 @@
 
-.body{
+body{
     margin: 0;
     padding:0%;
     background: #070029;
@@ -17,12 +17,17 @@
 
 }
 
-#hamburger-menu:checked ~ nav {
-  display: block;  
+.hamburger {
+    float: right;
+
+}
+
+#hamburger-menu:checked ~ .menu-items {
+  display: none;  
 }
 
 #hamburger-menu{
-    display: none;
+    display: block;
 }
 
 
@@ -114,16 +119,6 @@ h1{
     flex-direction: c;
 }
 
-<<<<<<< Updated upstream
-.grid{
-    display: grid;
-    place-items: center;
-}
-=======
-
-
->>>>>>> Stashed changes
-
 
   @media only screen and (min-width: 768px) {
     /* For tablets: */
@@ -131,20 +126,14 @@ h1{
         background:red;
     
     }
-<<<<<<< Updated upstream
-  }
+
+
+    }
+  
   @media only screen and (min-width: 1024px) {
     /* For desktop: */
     body{
         background:#070029
     
     }
-  }
-=======
-  
-  @media only screen and (min-width: 1024px) {
-    /* For desktop: */
-    body{
-        background: green;
-    
->>>>>>> Stashed changes
+}
