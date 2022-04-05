@@ -1,11 +1,5 @@
 
-<<<<<<< Updated upstream
-    
-
-body{
-=======
 .body{
->>>>>>> Stashed changes
     margin: 0;
     padding:0%;
     background: #070029;
@@ -23,8 +17,6 @@ body{
 
 }
 
-<<<<<<< Updated upstream
-=======
 #hamburger-menu:checked ~ nav {
   display: block;  
 }
@@ -35,7 +27,6 @@ body{
 
 
 
->>>>>>> Stashed changes
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -50,17 +41,8 @@ header {
     
 }
 
-<<<<<<< Updated upstream
-header a{
-    color: #FEF6FF;
-    font-family: 'Padauk', sans-serif;
-    font-weight:black;
-    font-size: 20px;
-}
-=======
 
 
->>>>>>> Stashed changes
 p{
     color: #FEF6FF;
     font-family:'Padauk', sans-serif;
@@ -75,17 +57,12 @@ h1{
     font: size 40px;
 }
 
-<<<<<<< Updated upstream
  .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
      
  }
-=======
-
- 
->>>>>>> Stashed changes
 
  .item{
      flex: 1;
@@ -94,11 +71,6 @@ h1{
 
  }
 
-<<<<<<< Updated upstream
-=======
-    
-}
->>>>>>> Stashed changes
  .item-one{
     flex: none;
     font-family: 'Padauk', sans-serif;
