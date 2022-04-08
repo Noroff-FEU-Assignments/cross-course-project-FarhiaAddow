@@ -1,1 +1,83 @@
+body{
+    background-image: url(../images/home-img/film\ camera\ banner.jpeg);
+    background-size: cover;
+    margin: 0px;
+}
+
+
+header{
+    background:rgb( 0,0,0,0.4);
+    padding: 10px;
+    text-align: right;
+}
+
+header a {
+    color: #fff;
+
+}
+nav #hamburger-checkbox{
+    display:none;
+}
+nav{
+    position:absolute;
+    right: 10px;
+    top: 40px;
+}
+
+#hamburger-checkbox:checked~nav{
+    display:block ;
+}
+
+.ctas{
+    margin-top: 50px;
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    background:#278df9;
+    color: #fff;
+}
+
+.cta{
+    flex: 1;
+    min-height: 200px;
+    position: ;
+
+}
+.cta a{
+    color: #fff;
+ }
+
+ .cta-with-image{
+     background-image:url(../images/home-img/man\ with\ a\ filming.jpeg);
+     background-size: cover;
+
+ }
+ .cta-watch{
+     background-image: url(../images/home-img/camarabrain.jpeg);
+     background-size:cover;
+     
+ }
+ .cta-with-image a{
+     background:
+ }
+
+}
+@media only screen and (min-width: 768px) {
+  /* For tablets: */
+  body{
+      background:red;
+
+ 
+  }
+
+
+ 
+  }
+ @media only screen and (min-width: 1024px) {
+  /* For desktop: */
+  body{
+      background:#070029
+
+
+  }
 
