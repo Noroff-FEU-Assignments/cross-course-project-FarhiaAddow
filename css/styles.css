@@ -1,5 +1,6 @@
 body{
-    background-image: url(../images/home-img/film\ camera\ banner.jpeg);
+    background: rgb(77,72,102);
+    background: linear-gradient(0deg, rgba(77,72,102,1) 1%, rgba(7,0,41,1) 90%);
     background-size: cover;
     margin: 0px;
 }
@@ -47,7 +48,7 @@ nav{
     color: #fff;
  }
 
- .cta-create{
+ .cta-creater{
      background-image:url(../images/home-img/man\ with\ a\ filming.jpeg);
      background-size: cover;
 
@@ -62,12 +63,12 @@ nav{
      position:absolute;
      left: 50%;
      transform: translatex(-50%);
-
+     background-repeat: no-repeat;
    
  }
 
  .cta-create-acc{
-    position:absolute;
+    position:relative;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
@@ -90,6 +91,8 @@ nav{
   /* For tablets: */
   body{
       background:red;
+      background-image:url(../images/home-img/film\ camera\ banner.jpeg);
+      background-size: cover; 
 
 
   }
@@ -100,7 +103,9 @@ nav{
  @media only screen and (min-width: 1024px) {
   /* For desktop: */
   body{
-      background:#070029
+      background:#070029;
+      background-image:url(../images/home-img/film\ camera\ banner.jpeg); 
+      
 
 
   }
