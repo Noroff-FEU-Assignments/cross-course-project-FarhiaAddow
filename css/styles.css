@@ -7,6 +7,7 @@ body{
    
 }
 
+}
 
 .header-logo{
     background-image: url(../images/home-img/SquareEyes_Logo.png);
@@ -39,7 +40,9 @@ nav{
 #hamburger-checkbox:checked~nav{
     display:none;
 }
-
+#hamburger-checkbox{
+    display: none;
+}
 .ctas{
     margin-top: 50px;
     display: flex;
