@@ -88,7 +88,17 @@ nav{
 
 
  }
-
+.Banner-img{
+    background-image: url(../images/home-img/film\ camera\ banner.jpeg);
+    padding: 100px;
+    text-align: center;
+    color: #fef6ff;
+ 
+}
+#background-color{
+    padding: 10px;
+    background: rgb(77,72,102);
+    background: linear-gradient(0deg, rgba(77,72,102,1) 1%, rgba(7,0,41,1) 90%);
 
  h1{
     text-align: center;
@@ -105,8 +115,14 @@ nav{
 
 }
 
- 
-  }
+ #watcher-profile{
+     padding: 20px;
+
+
+    
+
+ }
+  
  @media only screen and (min-width: 1024px) {
   /* For desktop: */
   body{
