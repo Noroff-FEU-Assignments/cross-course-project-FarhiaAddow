@@ -6,10 +6,16 @@ body{
     background-repeat: no-repeat;
 }
 
+.header-logo{
+    background-image: url(../images/home-img/SquareEyes_Logo.png);
+    max-width: 
+
+
+}
 
 header{
     background:rgb( 0,0,0,0.2);
-    padding: 10px;
+    padding: 60px;
     text-align: right;
 }
 
@@ -19,6 +25,7 @@ header a {
 }
 nav #hamburger-checkbox{
     display:none;
+    
 }
 nav{
     position:absolute;
@@ -71,36 +78,24 @@ nav{
    
  }
 
-  
- }
 
- .cta-create-acc{
-     position:;
+
+ .cta-create-account{
      color: #fef6ff;
-     font-family: catamaran; font-weight: bold; font-size: 20px;
-     order: 3;
+
+   
 
 
  }
-
 
 
  h1{
-     text-align: center;
-     font-family: Prompt;font-weight: lighter;
-     color: #fef6ff;
-     
-     
-    
+    text-align: center;
+    font-family: Prompt;font-weight: lighter;
+    color: #fef6ff;
+      
 }
 
-
-
-
-
-
-
-  }
 
 
  
@@ -111,7 +106,11 @@ nav{
       background:#070029;
       background-image:url(../images/home-img/film\ camera\ banner.jpeg); 
       background-repeat: no-repeat;
-
+  }
+  h1{
+        text-align: center;
+        font-family: Prompt;font-weight: lighter;
+        color: #fef6ff;
 
   }
 
