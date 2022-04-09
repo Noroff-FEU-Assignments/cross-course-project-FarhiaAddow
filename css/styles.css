@@ -99,7 +99,7 @@ nav{
     padding: 10px;
     background: rgb(77,72,102);
     background: linear-gradient(0deg, rgba(77,72,102,1) 1%, rgba(7,0,41,1) 90%);
-
+}
  h1{
     text-align: center;
     font-family: Prompt;font-weight: lighter;
@@ -118,11 +118,45 @@ nav{
  #watcher-profile{
      padding: 20px;
 
-
+ }
+  
+ .profile-info {
+    font-family:'Padauk', sans-serif;
+    font-weight: light;
+    font-size: 20px;
+    color: #fef6ff;
+    
+    
     
 
  }
-  
+
+ #cc-icon{
+     color: #fef6ff;
+     position:relative;
+     left: 50%;
+     transform: translatex(-50%);
+     
+ }
+ .paymentlist{
+     color: #fef6ff;
+     font-family: catamaran; font-weight: bold; font-size: 20px;
+     text-align: center;
+      
+ }
+ #vipps{
+    background: rgb(77,72,102);
+    background: linear-gradient(0deg, rgba(77,72,102,1) 1%, rgba(7,0,41,1) 90%);
+ }
+ #klarna{
+    background: rgb(77,72,102);
+    background: linear-gradient(0deg, rgba(77,72,102,1) 1%, rgba(7,0,41,1) 90%);
+ }
+ #paypal{
+    background: rgb(77,72,102);
+    background: linear-gradient(0deg, rgba(77,72,102,1) 1%, rgba(7,0,41,1) 90%);
+ }
+ #
  @media only screen and (min-width: 1024px) {
   /* For desktop: */
   body{
