@@ -3,11 +3,12 @@ body{
     background: linear-gradient(0deg, rgba(77,72,102,1) 1%, rgba(7,0,41,1) 90%);
     background-size: cover;
     margin: 0px;
+    background-repeat: no-repeat;
 }
 
 
 header{
-    background:rgb( 0,0,0,0.4);
+    background:rgb( 0,0,0,0.2);
     padding: 10px;
     text-align: right;
 }
@@ -32,10 +33,13 @@ nav{
 .ctas{
     margin-top: 50px;
     display: flex;
+    flex-direction: column;
     max-width: 1000px;
     margin: 0 auto;
     background:#278df9;
     color: #fff;
+    font-family: catamaran; font-weight: bold; font-size: 20px;1
+    
 }
 
 .cta{
@@ -67,13 +71,19 @@ nav{
    
  }
 
+  
+ }
+
  .cta-create-acc{
-    position:relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+     position:;
+     color: #fef6ff;
+     font-family: catamaran; font-weight: bold; font-size: 20px;
+     order: 3;
+
 
  }
+
+
 
  h1{
      text-align: center;
@@ -87,12 +97,7 @@ nav{
 
 
 
-@media only screen and (min-width: 768px) {
-  /* For tablets: */
-  body{
-      background:red;
-      background-image:url(../images/home-img/film\ camera\ banner.jpeg);
-      background-size: cover; 
+
 
 
   }
@@ -105,7 +110,7 @@ nav{
   body{
       background:#070029;
       background-image:url(../images/home-img/film\ camera\ banner.jpeg); 
-      
+      background-repeat: no-repeat;
 
 
   }
