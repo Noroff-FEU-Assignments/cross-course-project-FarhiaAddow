@@ -7,11 +7,12 @@ body{
    
 }
 
-}
+
 
 .header-logo{
     background-image: url(../images/home-img/SquareEyes_Logo.png);
-    max-width: 
+    ***esize logo image***
+
 
 
 }
@@ -25,24 +26,71 @@ header{
 
 header a {
     color: #fff;
+    text-decoration: none;
+    
+    
 
 }
 nav #hamburger-checkbox{
     display:none;
     
+    
 }
+
 nav{
     position:absolute;
     right: 10px;
     top: 40px;
+    
 }
+.mainnav{
+    font-family: catamaran; font-weight: bold; font-size: 40px;
+    background-color: #362B48;
+    opacity: 40%;
+    flex: 1;
+    min-height: 100px;
+    
+   
 
+
+}
 #hamburger-checkbox:checked~nav{
     display:none;
+    
 }
 #hamburger-checkbox{
     display: none;
+    
 }
+.bars{
+    color: #fef6ff;
+    margin: 0 auto
+    
+    
+}
+#color-e-p{
+    color: #fef6ff;
+    font-family:'Padauk', sans-serif;
+    font-weight: regular;
+    font-size: 30px;
+    margin: 40px;
+    
+    
+    
+
+
+}
+
+
+#box{
+    background: rgb(77,72,102);
+    background: linear-gradient(0deg, rgba(77,72,102,1) 1%, rgba(7,0,41,1) 90%);
+    color: #fef6ff;
+    width: 300px;
+    height: 30px;
+    
+}
+
 .ctas{
     margin-top: 50px;
     display: flex;
@@ -51,7 +99,7 @@ nav{
     margin: 0 auto;
     background:#278df9;
     color: #fff;
-    font-family: catamaran; font-weight: bold; font-size: 20px;1
+    font-family: catamaran; font-weight: bold; font-size: 20px;
     
 }
 
@@ -59,10 +107,12 @@ nav{
     flex: 1;
     min-height: 200px;
     position:relative ;
+    
 
 }
 .cta a{
     color: #fff;
+    
  }
 
  .cta-creater{
@@ -73,6 +123,7 @@ nav{
  .cta-watch{
      background-image: url(../images/home-img/camarabrain.jpeg);
      background-size:cover;
+     border: 50px;
      
  }
  .cta-with-image a{
@@ -81,6 +132,8 @@ nav{
      left: 50%;
      transform: translatex(-50%);
      background-repeat: no-repeat;
+     border: 40px;
+
    
  }
 
@@ -90,6 +143,23 @@ nav{
      color: #fef6ff;
 
 
+ }
+#or{
+   color: #278df9;
+   font-family: catamaran; font-weight: bold; font-size: 20px;
+   text-align: center;
+}
+ button{
+     width: 200px;
+     height: 40px;
+     display: flex;
+     flex-direction: column;
+     margin: 0 auto;
+    background:#278df9;
+    color: #fff;
+    font-family: catamaran; font-weight: bold; font-size: 20px;
+    border-radius: 50px;
+    
  }
 .Banner-img{
     background-image: url(../images/home-img/film\ camera\ banner.jpeg);
@@ -127,11 +197,31 @@ nav{
     font-family:'Padauk', sans-serif;
     font-weight: light;
     font-size: 20px;
-    color: #fef6ff;
-    
-    
-    
+    color: #fef6ff; 
 
+ }
+
+ .login-section{
+   
+    padding: 80px;
+    background: rgb(77,72,102);
+    background: linear-gradient(0deg, rgba(77,72,102,1) 1%, rgba(7,0,41,1) 90%);
+    border-radius: 50px;
+    border-color: #ab2180;
+   
+
+
+ }
+ .brb{
+    display: flex;
+    flex-direction:column-reverse
+     
+ }
+ .image-seize{
+    **resize images-watch norof***
+     
+
+     
  }
 
  #cc-icon{
