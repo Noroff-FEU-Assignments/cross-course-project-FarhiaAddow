@@ -1,37 +1,20 @@
 body {
-  
-    background: linear-gradient(0deg, rgba(77,72,102,1) 1%, rgba(7,0,41,1) 90%);
-}
+    background: linear-gradient(0deg, rgba(77, 72, 102, 1) 1%, rgba(7, 0, 41, 1) 90%);
+  }
 
-.header-container {
-    background-color: rgba(7,0,41,1); opacity:50%;
-    
-}
+  .header-container {
+    background-color: rgba(7, 0, 41, 1);
+    opacity: 50%;
+  }
 
-
-.logo-img {
+  .logo-img {
     width: 175px;
-    
- 
-   }
+  }
 
-.banner-img {
+  .banner-img {
 
-}
-.createacc-button .{
-    background-color:rgba(77,72,102,1) 1%, rgba(7,0,41,1) 90%);
-    font-family: rubik, sans-serif;
-    font-weight: bold;
-    border: 1px solid #06162b;
-    border-radius: 10px;
-    display: block;
-    width: 200px;
-    padding: 1em;
-    margin: 1em 0;
-   
-}
+  }
 
-
-.footer {
-
-}
+  .createacc-button {
+    background-color: rgba(77, 72, 102, 1) 1%, rgba(7, 0, 41, 1) 90
+  }
