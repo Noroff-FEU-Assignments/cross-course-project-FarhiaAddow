@@ -28,19 +28,11 @@ git clone https://github.com/Noroff-FEU-Assignments/cross-course-project-FarhiaA
 
 2. Install the dependencies:
 
-```
-npm install
-```
+none
 
 ### Running
 
 
-
-To run the app, run the following commands:
-
-```bash
-npm run start
-```
 
 ## Contributing
 
