@@ -1,0 +1,141 @@
+
+    .menu-btn {
+      font-family: catamaran; font-weight: bold; font-size: 20px;
+    }
+
+nav {
+  background-color: black;
+  color: white;
+  width:auto;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-family:'Padauk', sans-serif;
+  
+}
+
+nav a:hover {
+  color: pink;
+}
+
+.navbar {
+  
+  catamaran; font-weight: bold; font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 1em;
+}
+
+.navbar-links {
+  display: flex;
+  
+  }
+  
+  .navbar-links a {
+    margin-left: 1em;
+    padding: 1rem;
+  }
+
+  .logo-img {
+  height: 50px; 
+  margin: 0.5em 1em; 
+}
+
+body {
+  background-image: url("/images/home-img/digital-transformation_world-map_outsourcing_iot_edge-computing-100765178-large.jpeg");
+  background-size:cover;
+}
+
+/*imagecard index*/
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+  margin-top: 4rem;
+  padding: 1rem;
+}
+.card {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.796);
+  padding: 40px;
+}
+
+.card img {
+  height: 250px;
+  width: auto;
+}
+
+.card-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  
+}
+
+
+.all-content a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+}
+.cta-link {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  
+}
+
+
+/*  responsive navigation */
+@media only screen and (max-width: 600px) {
+  
+    /* Hide the navbar */
+    .navbar-links {
+      display: none;
+    }
+  
+    /* Show the "menu" button  */
+    .menu-btn {
+      font-family: catamaran; font-weight: bold; font-size: 20px;
+      display: block;
+      background-color: black;
+      color: pink;
+      padding: 0.5em 1em;
+      cursor: pointer;
+
+    }
+    
+    .logo-img {
+      height: 60px;
+    }
+    
+    /* Dropdown  */
+    .navbar-links.show {
+      display: block;
+    }
+    
+    .navbar-links a {
+    display: block;
+    margin: 0;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    width: 100%;
+  }
+  .card-inner {
+    text-align: center;
+  }
+}
