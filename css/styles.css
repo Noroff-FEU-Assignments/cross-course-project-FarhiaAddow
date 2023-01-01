@@ -1,21 +1,14 @@
-body{
-    background: rgb(77,72,102);
-    background: linear-gradient(0deg, rgba(77,72,102,1) 1%, rgba(7,0,41,1) 90%);
-    background-size: cover;
-    margin: 0px;
-    background-repeat: no-repeat;
-   
-}
 
+    body {
+        background-image: url("/images/home-img/digital-transformation_world-map_outsourcing_iot_edge-computing-100765178-large.jpeg");
+        background-color: black;
+        margin: 0%;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
 
-
-.header-logo{
-    background-image: url(../images/home-img/SquareEyes_Logo.png);
-    ***esize logo image***
-
-
-
-}
 
 
 header{
@@ -29,45 +22,60 @@ header a {
     text-decoration: none;
     
     
+}
+h4{
+  color: #fff;
+  font-size: 40px;
+  font-family:'Padauk', sans-serif;
+}
+
+p{
+  color: #fff;
+  font-size: 20px;
+  font-family:'Padauk', sans-serif;
+}
+/* movieposter styling */
+.products {
+  display: flex;
+}
+
+.products > a {
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #f1f1f1;
+  border-radius: 1rem;      
+}
+
+.products > a:hover {
+  background-color: #d0d0d0;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.buttonclass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonclass > button {
+  cursor: pointer;
+}
+
+
+.product-image {
+border-radius: 1rem;
+width: 300px;
+height: 300px;
+object-fit: contain;
 
 }
-nav #hamburger-checkbox{
-    display:none;
-    
-    
-}
-
-nav{
-    position:absolute;
-    right: 10px;
-    top: 40px;
-    
-}
-.mainnav{
-    font-family: catamaran; font-weight: bold; font-size: 40px;
-    background-color: #362B48;
-    opacity: 40%;
-    flex: 1;
-    min-height: 100px;
-    
-   
 
 
-}
-#hamburger-checkbox:checked~nav{
-    display:none;
-    
-}
-#hamburger-checkbox{
-    display: none;
-    
-}
-.bars{
-    color: #fef6ff;
-    margin: 0 auto
-    
-    
-}
 #color-e-p{
     color: #fef6ff;
     font-family:'Padauk', sans-serif;
@@ -149,18 +157,35 @@ nav{
    font-family: catamaran; font-weight: bold; font-size: 20px;
    text-align: center;
 }
- button{
-     width: 200px;
-     height: 40px;
-     display: flex;
-     flex-direction: column;
-     margin: 0 auto;
-    background:#278df9;
-    color: #fff;
-    font-family: catamaran; font-weight: bold; font-size: 20px;
-    border-radius: 50px;
-    
- }
+button {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background: #278df9;
+  color: #fff;
+  font-family: catamaran;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+  transform: translateY(2px);
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+ 
 .Banner-img{
     background-image: url(../images/home-img/film\ camera\ banner.jpeg);
     padding: 100px;
@@ -181,12 +206,6 @@ nav{
       
 }
 
-.background-color{
-    background: rgb(77,72,102);
-    background: linear-gradient(0deg, rgba(77,72,102,1) 10%, rgba(7,0,41,1) 90%);
-  
-
-}
 
  #watcher-profile{
      padding: 20px;
@@ -216,9 +235,7 @@ nav{
     display: flex;
     flex-direction:column-reverse
      
- }
- .image-seize{
-    **resize images-watch norof***
+
      
 
      
@@ -249,18 +266,77 @@ nav{
     background: rgb(77,72,102);
     background: linear-gradient(0deg, rgba(77,72,102,1) 1%, rgba(7,0,41,1) 90%);
  }
- #
- @media only screen and (min-width: 1024px) {
-  /* For desktop: */
-  body{
-      background:#070029;
-      background-image:url(../images/home-img/film\ camera\ banner.jpeg); 
-      background-repeat: no-repeat;
-  }
-  h1{
-        text-align: center;
-        font-family: Prompt;font-weight: lighter;
-        color: #fef6ff;
-
-  }
-
+ 
+ .menu-btn,
+ .menu-btn__burger {
+   display: none;
+   cursor: pointer;
+   background: transparent;
+   border: none;
+   outline: none;
+   z-index: 1000;
+ }
+ 
+ .menu-btn__burger {
+   width: 20px;
+   height: 2px;
+   background: #000;
+   border-radius: 2px;
+   transition: all 0.2s ease;
+   position: relative;
+ }
+ 
+ .menu-btn__burger:before,
+ .menu-btn__burger:after {
+   content: "";
+   width: 20px;
+   height: 2px;
+   background: #000;
+   border-radius: 2px;
+   position: absolute;
+   transition: all 0.2s ease;
+ }
+ 
+ .menu-btn__burger:before {
+   top: -6px;
+ }
+ 
+ .menu-btn__burger:after {
+   top: 6px;
+ }
+ 
+ .menu-btn {
+   font-family: catamaran;
+   font-weight: bold;
+   font-size: 20px;
+   display: block;
+   background-color: black;
+   color: pink;
+   padding: 0.5em 1em;
+   cursor: pointer;
+ }
+ 
+ .logo-img {
+   height: 80px;
+   float: left;
+ }
+ 
+ .navbar-links.show {
+   display: block;
+ }
+ 
+ .navbar-links a {
+   display: block;
+   margin: 0;
+ }
+ 
+ @media (max-width: 668px) {
+   .menu-btn {
+     display: block;
+   }
+   .navbar-links {
+     display: none;
+   }
+ }
+ 
+ 

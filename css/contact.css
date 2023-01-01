@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    margin: 0%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+main {
+    margin-left: 10rem;
+    margin: 1rem;
+    padding: 4rem;
+    align-self: center;
+}
+
+.contact-card{
+    /* width: 40rem; */
+    background-color: white;
+    box-shadow: 10px 10px 5px #48309e;
+}
+
+form {
+    padding: 3rem;
+    position: relative;
+    /* width: 500px; */
+    margin: 50px auto 100px auto;
+    font-family: 'prompt';  
+     
+}
+.subject {
+    font-family: 'padding';
+    color: #48309e
+}
+
+input {
+margin-bottom: 2rem;
+height: 30px;
+width:100%;
+border-color: #48309e;
+border-style:double;
+
+
+
+
+}

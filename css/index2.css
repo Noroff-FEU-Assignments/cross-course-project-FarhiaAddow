@@ -1,56 +1,5 @@
 
-    .menu-btn {
-      font-family: catamaran; font-weight: bold; font-size: 20px;
-    }
-
-nav {
-  background-color: black;
-  color: white;
-  width:auto;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.2em;
-  font-family:'Padauk', sans-serif;
-  
-}
-
-nav a:hover {
-  color: pink;
-}
-
-.navbar {
-  
-  catamaran; font-weight: bold; font-size: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.5em 1em;
-}
-
-.navbar-links {
-  display: flex;
-  
-  }
-  
-  .navbar-links a {
-    margin-left: 1em;
-    padding: 1rem;
-  }
-
-  .logo-img {
-  height: 50px; 
-  margin: 0.5em 1em; 
-}
-
-body {
-  background-image: url("/images/home-img/digital-transformation_world-map_outsourcing_iot_edge-computing-100765178-large.jpeg");
-  background-size:cover;
-}
-
-/*imagecard index*/
+/*imagecard */
 .grid{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -61,13 +10,15 @@ body {
 }
 .card {
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.796);
+  background-color: rgba(0, 0, 0, 0.613);
   padding: 40px;
+
 }
 
 .card img {
   height: 250px;
   width: auto;
+  border-radius: 0.5rem;
 }
 
 .card-inner {
@@ -82,18 +33,94 @@ body {
 
 .all-content a {
   text-decoration: none;
-  background-color: black;
   color: white;
   display: inline-block;
   padding: 10px;
+  font-family: Prompt; font-weight: lighter;
+  font-size: 40px;
+  font-family: prompt; font-weight: lighter;
+  background-color: rgba(0, 0, 0, 0.55);
+  border-radius: 1rem;
 }
+
 .cta-link {
   text-decoration: none;
-  background-color: black;
   color: white;
   display: inline-block;
   padding: 10px;
   
+}
+
+
+.menu-btn,
+.menu-btn__burger {
+  display: none;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  z-index: 1000;
+}
+
+.menu-btn__burger {
+  width: 20px;
+  height: 2px;
+  background: #000;
+  border-radius: 2px;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.menu-btn__burger:before,
+.menu-btn__burger:after {
+  content: "";
+  width: 20px;
+  height: 2px;
+  background: #000;
+  border-radius: 2px;
+  position: absolute;
+  transition: all 0.2s ease;
+}
+
+.menu-btn__burger:before {
+  top: -6px;
+}
+
+.menu-btn__burger:after {
+  top: 6px;
+}
+
+.menu-btn {
+  font-family: catamaran;
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+  background-color: black;
+  color: pink;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.logo-img {
+  height: 80px;
+}
+
+.navbar-links.show {
+  display: block;
+}
+
+.navbar-links a {
+  display: block;
+  margin: 0;
+}
+
+@media (max-width: 668px) {
+  .menu-btn {
+    display: block;
+  }
+  .navbar-links {
+    display: none;
+  }
 }
 
 
@@ -101,34 +128,7 @@ body {
 @media only screen and (max-width: 600px) {
   
     /* Hide the navbar */
-    .navbar-links {
-      display: none;
-    }
   
-    /* Show the "menu" button  */
-    .menu-btn {
-      font-family: catamaran; font-weight: bold; font-size: 20px;
-      display: block;
-      background-color: black;
-      color: pink;
-      padding: 0.5em 1em;
-      cursor: pointer;
-
-    }
-    
-    .logo-img {
-      height: 60px;
-    }
-    
-    /* Dropdown  */
-    .navbar-links.show {
-      display: block;
-    }
-    
-    .navbar-links a {
-    display: block;
-    margin: 0;
-  }
   .grid {
     grid-template-columns: 1fr;
   }
@@ -137,5 +137,13 @@ body {
   }
   .card-inner {
     text-align: center;
+  }
+  .all-content a {
+    font-size: 40px;
+  }
+  .card img {
+    height: 150px;
+    width: 100%;
+    align-items: baseline;
   }
 }
