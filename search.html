@@ -9,32 +9,45 @@
   <link href="css/styles.css" rel="stylesheet" />
   <link href="css/search.css" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/95fde21ec4.js" crossorigin="anonymous"></script>
+  <!-- Hotjar Tracking Code for Farhia project  -->
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:3274592,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
 </head>
 
 <body class="background-color">
   <header>
     <nav>
       <div class="navbar">
-        <a href="index2.html" class="logo-link">
+        <a href="index.html" class="logo-link">
           <img src="images/home-img/SquareEyes_Logo.png" alt="Logo" class="logo-img">
         </a>
+        <div class="menu-btn">Menu</div>
         <div class="navbar-links">
-          <a href="index2.html">HOME</a>
+          <a href="index.html">HOME</a>
           <a href="login.html">LOG IN</a>
           <a href="create-acc.html">REGISTER</a>
         </div>
-        <div class="menu-btn">Menu</div>
       </div>
     </nav>
+    <form class="nobutton">
+      <a href="watch.html">
+        <i class="fas fa-shopping-cart"></i>
+      </a>
+    </form>
   </header>
   <main class="brb">
     <section>
-      <h1>MOST POPULAR</h1>
-      <section class="flex-container">
+      <h1>MOST POPULAR MOVIES</h1>
         <div class="movies">
         </div>
-      </section>
-      
       </section>
       <form class="movie-search">
         <h1>Search Movies</h1>
@@ -44,12 +57,7 @@
       <form id="cart-form">
         <div id="cart-items">
         </div>
-        <form class="nobutton">
-          <a href="watch.html">
-            <i class="fas fa-shopping-cart"></i>
-          </a>
-        </form>
-      </form>
+        
     </main>
 </body>
 <script src="js/search.js"></script> 

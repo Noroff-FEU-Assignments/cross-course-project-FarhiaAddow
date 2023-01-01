@@ -1,6 +1,6 @@
 
     body {
-        background-image: url("/images/home-img/digital-transformation_world-map_outsourcing_iot_edge-computing-100765178-large.jpeg");
+
         background-color: black;
         margin: 0%;
         height: 100%;
@@ -23,6 +23,7 @@ header a {
     
     
 }
+
 h4{
   color: #fff;
   font-size: 40px;
@@ -152,11 +153,7 @@ object-fit: contain;
 
 
  }
-#or{
-   color: #278df9;
-   font-family: catamaran; font-weight: bold; font-size: 20px;
-   text-align: center;
-}
+
 button {
   width: 200px;
   height: 40px;
@@ -267,6 +264,7 @@ button:active {
     background: linear-gradient(0deg, rgba(77,72,102,1) 1%, rgba(7,0,41,1) 90%);
  }
  
+ /*van*/
  .menu-btn,
  .menu-btn__burger {
    display: none;
@@ -291,7 +289,7 @@ button:active {
    content: "";
    width: 20px;
    height: 2px;
-   background: #000;
+   background: rgba(0, 0, 0, 0.439);
    border-radius: 2px;
    position: absolute;
    transition: all 0.2s ease;
@@ -308,11 +306,11 @@ button:active {
  .menu-btn {
    font-family: catamaran;
    font-weight: bold;
-   font-size: 20px;
+   font-size: 50px;
    display: block;
    background-color: black;
-   color: pink;
-   padding: 0.5em 1em;
+   color:#ab2180;
+   padding: 0.5em 0.1em;
    cursor: pointer;
  }
  
@@ -321,22 +319,38 @@ button:active {
    float: left;
  }
  
+ .navbar-links {
+  font-family: Prompt;
+  
+ }
  .navbar-links.show {
    display: block;
  }
  
  .navbar-links a {
-   display: block;
-   margin: 0;
+  display: block;
+  margin: 0;
+  background-color: #000;
+  b
+  border-color: #ab2180;
+  padding: 1rem;
+  font-size: 20px;
  }
+
+ .navbar-links: :hover{
+  
+
+ }
+
+ 
+
+  
  
  @media (max-width: 668px) {
-   .menu-btn {
-     display: block;
-   }
-   .navbar-links {
-     display: none;
-   }
- }
- 
- 
+  .menu-btn {
+    display: block;
+  }
+  .navbar-links {
+    display: none;
+  }
+}

@@ -52,54 +52,6 @@
 }
 
 
-.menu-btn,
-.menu-btn__burger {
-  display: none;
-  cursor: pointer;
-  background: transparent;
-  border: none;
-  outline: none;
-  z-index: 1000;
-}
-
-.menu-btn__burger {
-  width: 20px;
-  height: 2px;
-  background: #000;
-  border-radius: 2px;
-  transition: all 0.2s ease;
-  position: relative;
-}
-
-.menu-btn__burger:before,
-.menu-btn__burger:after {
-  content: "";
-  width: 20px;
-  height: 2px;
-  background: #000;
-  border-radius: 2px;
-  position: absolute;
-  transition: all 0.2s ease;
-}
-
-.menu-btn__burger:before {
-  top: -6px;
-}
-
-.menu-btn__burger:after {
-  top: 6px;
-}
-
-.menu-btn {
-  font-family: catamaran;
-  font-weight: bold;
-  font-size: 20px;
-  display: block;
-  background-color: black;
-  color: pink;
-  padding: 0.5em 1em;
-  cursor: pointer;
-}
 
 .logo-img {
   height: 80px;
