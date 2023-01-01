@@ -2,7 +2,7 @@
     body {
 
         background-color: black;
-        margin: 0%;
+        margin: 2rem;
         height: 100%;
         background-position: center;
         background-repeat: no-repeat;
@@ -23,17 +23,31 @@ header a {
     
     
 }
+h1{
+  color: #fff;
+  font-size: 20px;
+  font-family:'Padauk', sans-serif; 
+}
+
+h2{
+  font-family: prompt;
+  color: #ab2180;
+  font-weight: 300;
+  font-size: 80px;
+}
 
 h4{
+  font-family: prompt;
+  font-weight: 200;
   color: #fff;
-  font-size: 40px;
-  font-family:'Padauk', sans-serif;
+  font-size: 60px;
 }
 
 p{
   color: #fff;
   font-size: 20px;
-  font-family:'Padauk', sans-serif;
+  font-family:prompt;
+
 }
 /* movieposter styling */
 .products {
@@ -51,11 +65,7 @@ p{
   background-color: #d0d0d0;
 }
 
-h1 {
-  font-size: 26px;
-  font-weight: bold;
-  text-align: center;
-}
+
 
 .buttonclass {
   display: flex;
@@ -161,10 +171,10 @@ button {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  background: #278df9;
+  background:#ab2180;
   color: #fff;
-  font-family: catamaran;
-  font-weight: bold;
+  font-family: prompt;
+  font-weight:400;
   font-size: 20px;
   border: none;
   border-radius: 50px;
@@ -195,13 +205,9 @@ button:active {
     background: rgb(77,72,102);
     background: linear-gradient(0deg, rgba(77,72,102,1) 1%, rgba(7,0,41,1) 90%);
 }
- h1{
-    text-align: center;
-    font-family: Prompt;font-weight: lighter;
-    color: #fef6ff;
-    
-      
-}
+
+
+
 
 
  #watcher-profile{
@@ -331,16 +337,12 @@ button:active {
   display: block;
   margin: 0;
   background-color: #000;
-  b
   border-color: #ab2180;
   padding: 1rem;
   font-size: 20px;
  }
 
- .navbar-links: :hover{
-  
 
- }
 
  
 
@@ -353,4 +355,9 @@ button:active {
   .navbar-links {
     display: none;
   }
+
+  body {
+    margin: 0px;
+  }
+
 }

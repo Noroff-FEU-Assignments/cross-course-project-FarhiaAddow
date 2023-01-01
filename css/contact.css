@@ -10,7 +10,8 @@ body {
 
 
 main {
-    margin-left: 10rem;
+    margin-left: auto;
+    margin-right: auto;
     margin: 1rem;
     padding: 4rem;
     align-self: center;
@@ -19,7 +20,7 @@ main {
 .contact-card{
     /* width: 40rem; */
     background-color: white;
-    box-shadow: 10px 10px 5px #48309e;
+    box-shadow: 10px 10px 5px #ab2180;
 }
 
 form {
@@ -32,14 +33,14 @@ form {
 }
 .subject {
     font-family: 'padding';
-    color: #48309e
+    color: #ab2180
 }
 
 input {
 margin-bottom: 2rem;
 height: 30px;
 width:100%;
-border-color: #48309e;
+border-color: #ab2180;
 border-style:double;
 
 

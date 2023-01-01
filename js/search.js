@@ -38,22 +38,26 @@ async function getMovie(url) {
       <img src="${movie.images[0].thumbnail}">
       <p>kr ${movie.prices.price} ,-</p>
       ${movie.description}
+      <button onClick="addToCart('${movie.name}')">add to cart!</button>
     </div>
   `;
 
-      const addToCartButton = document.createElement('button');
-      addToCartButton.textContent = 'Add to Cart';
-      addToCartButton.addEventListener('click', () => {
+      //const addToCartButton = document.createElement('button');
+      //addToCartButton.textContent = 'Add to Cart';
+      /*addToCartButton.addEventListener('click', () => {
         addToCart(movie);
-      });
-      movieContainer.appendChild(addToCartButton);
+      });*/
+      //movieContainer.appendChild(addToCartButton);
     });
   } catch (error) {
     console.error(error);
   }
 }
 
+
 function addToCart(item) {
+  console.log(item);
+  alert("You have added the movie: "+item+" to the cart")
   const cartItems = document.querySelector('#cart-items');
   cartItems.innerHTML += `
     <div class="cart-item">
